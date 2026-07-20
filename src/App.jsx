@@ -156,7 +156,7 @@ function ResultTable({ onBack }) {
     { session: "2024-2025", sem: "Semester 3", code: "AIL1010", subject: "Linear Algebra and Numerical Analysis", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B-" },
     { session: "2024-2025", sem: "Semester 3", code: "AIL1020", subject: "Foundations of Statistics and Probability", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "A" },
     { session: "2024-2025", sem: "Semester 3", code: "AIL1030", subject: "Algorithmic Thinking and Its Applications", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B" },
-    { session: "2024-2025", sem: "Semester 3", code: "AIL1040", subject: "Basics of Data Analytics", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "A" },
+    { session: "2024-2025", sem: "Semester 3", code: "AIL1040", subject: "Basics of Data Analytics", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B" },
   ];
 
   return (
@@ -200,7 +200,7 @@ function ResultTable({ onBack }) {
       </div>
       
       <div style={styles.footerStats}>
-        <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 5.75, CGPA: 5.75</strong>
+        <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 7.25, CGPA: 7.25</strong>
       </div>
       
     </div> 
