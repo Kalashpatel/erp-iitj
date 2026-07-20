@@ -203,7 +203,7 @@ function ResultTable({ onBack }) {
         <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 5.75, CGPA: 5.75</strong>
       </div>
 
-      {/* <div style={styles.resultHeaderBar}>
+       <div style={styles.resultHeaderBar}>
         Grades/Results for Semester/Session : Semester 2 and Program: Cohort 1
       </div>
 
@@ -241,7 +241,7 @@ function ResultTable({ onBack }) {
       <div style={styles.footerStats}>
         <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 7.75, CGPA: 7.75</strong>
       </div>
-    </div> */}
+    </div> 
   );
 }
 
