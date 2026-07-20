@@ -202,45 +202,7 @@ function ResultTable({ onBack }) {
       <div style={styles.footerStats}>
         <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 5.75, CGPA: 5.75</strong>
       </div>
-
-       <div style={styles.resultHeaderBar}>
-        Grades/Results for Semester/Session : Semester 2 and Program: Cohort 1
-      </div>
-
-      <div className="table-wrapper-mobile">
-      <table style={styles.table}>
-        <thead>
-          <tr style={styles.tableHeaderRow}>
-            <th style={styles.th}>Session</th>
-            <th style={styles.th}>Semester</th>
-            <th style={styles.th}>Subject Code</th>
-            <th style={styles.th}>Subject</th>
-            <th style={styles.th}>Subject Category</th>
-            <th style={styles.th}>L-T-P-D</th>
-            <th style={styles.th}>Credit</th>
-            <th style={styles.th}>Grade Obtained</th>
-          </tr>
-        </thead>
-        <tbody>
-          {result.map((r, i) => (
-            <tr key={i} style={styles.tableRow}>
-              <td style={styles.td}>{r.session}</td>
-              <td style={styles.td}>{r.sem}</td>
-              <td style={styles.td}>{r.code}</td>
-              <td style={styles.td}>{r.subject}</td>
-              <td style={styles.td}>{r.cat}</td>
-              <td style={styles.td}>{r.ltp}</td>
-              <td style={styles.td}>{r.credit}</td>
-              <td style={styles.td}>{r.grade}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      </div>
       
-      <div style={styles.footerStats}>
-        <strong>Credits Earned in Semester: 12, Cumulative Credits earned: 12, SGPA: 7.75, CGPA: 7.75</strong>
-      </div>
     </div> 
   );
 }
