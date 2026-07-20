@@ -153,17 +153,10 @@ function StudentDetails({ onBack }) {
 
 function ResultTable({ onBack }) {
   const results = [
-    { session: "2024-2025", sem: "Semester 1", code: "AIL1010", subject: "Linear Algebra and Numerical Analysis", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "D" },
-    { session: "2024-2025", sem: "Semester 1", code: "AIL1020", subject: "Foundations of Statistics and Probability", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "C-" },
-    { session: "2024-2025", sem: "Semester 1", code: "AIL1030", subject: "Algorithmic Thinking and Its Applications", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B-" },
-    { session: "2024-2025", sem: "Semester 1", code: "AIL1040", subject: "Basics of Data Analytics", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B-" },
-  ];
-
-  const result = [
-    { session: "2024-2025", sem: "Semester 2", code: "AIL1010", subject: "Foundations of AI", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B+" },
-    { session: "2024-2025", sem: "Semester 2", code: "AIL1020", subject: "Numerical Optimization", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "A-" },
-    { session: "2024-2025", sem: "Semester 2", code: "AIL1030", subject: "Pattern Recognition Principles", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B-" },
-    { session: "2024-2025", sem: "Semester 2", code: "AIL1040", subject: "Visualization and Storytelling with Data", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B+" },
+    { session: "2024-2025", sem: "Semester 3", code: "AIL1010", subject: "Linear Algebra and Numerical Analysis", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B-" },
+    { session: "2024-2025", sem: "Semester 3", code: "AIL1020", subject: "Foundations of Statistics and Probability", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "A" },
+    { session: "2024-2025", sem: "Semester 3", code: "AIL1030", subject: "Algorithmic Thinking and Its Applications", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "B" },
+    { session: "2024-2025", sem: "Semester 3", code: "AIL1040", subject: "Basics of Data Analytics", cat: "PC", ltp: "3-0-4-0", credit: 3, grade: "A" },
   ];
 
   return (
